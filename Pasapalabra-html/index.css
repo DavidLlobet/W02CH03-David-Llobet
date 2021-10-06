@@ -1,0 +1,222 @@
+.container {
+    background-color: rgb(125, 64, 224);
+}
+
+.subcontainer1 {
+    display: flex;
+}
+
+.rosco {
+    width: 50%;
+}
+
+.letter {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.firstRow {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: -20px;
+}
+
+.thirdRow {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    margin-top: -10px;
+}
+
+.fourthRow {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+}
+
+.fifthRow {
+    display: flex;
+    justify-content: center;
+    gap: 195px;
+}
+
+.sixthRow {
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+}
+
+.seventhRow {
+    display: flex;
+    justify-content: center;
+    gap: 235px;
+    margin: 5px 0px;
+}
+
+.eighthRow {
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+}
+
+.ninethRow {
+    display: flex;
+    justify-content: center;
+    gap: 195px;
+}
+
+.tenthRow {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+}
+
+.eleventhRow {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+}
+
+.twelfthRow {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.thirteenthRow {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -10px;
+}
+
+.instrucciones {
+    width: 50%;
+    margin-top: 40px;
+}
+
+#play {
+    height: 30px;
+    width: 60px;
+    border-radius: 20%;
+    color: white;
+    background-color: blue;
+    text-align: center;
+
+}
+
+#end {
+    height: 30px;
+    width: 90px;
+    border-radius: 20%;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-left: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#screen {
+    width: 1100px;
+    height: 30px;
+    background-color:cornflowerblue;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+}
+
+#answer {
+    border-radius: 5px;
+}
+
+#envia {
+    border-radius: 20%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#pasapalabra {
+    border-radius: 20%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#message {
+    width: 300px;
+    height: 150px;
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    float:right;
+    padding: 5px;
+    margin-right: 80px;
+    margin-top: -30px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#timer {
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;   
+}
+
+#count {
+    height: 30px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border: 3px solid white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px; 
+}
