@@ -2,11 +2,11 @@ const results = [];
 let val1 = prompt("Please enter first number");
 let val2 = prompt("Please enter second number");
 
-if(!isNaN(parseInt(val1))) {
+if(!Number.isNaN(parseInt(val1))) {
     val1 = parseInt(val1)
 }
 
-if(!isNaN(parseInt(val2))) {
+if(!Number.isNaN(parseInt(val2))) {
     val2 = parseInt(val2)
 }
 
@@ -54,7 +54,7 @@ function calculator(num1, num2) {
     }
 }
 
-for (i=0; i<results.length; i++) {
+for (let i=0; i<results.length; i++) {
     switch(i) {
         case 0: console.log(`El resultado de la suma es ${results[i]}`)
         break;
