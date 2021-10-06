@@ -18,11 +18,11 @@ function division(num1, num2) {
 
 function calculatorPro() {
     let newNumber;
-    let numberList = [];
+    const numberList = [];
 
     do {
         newNumber = prompt('Enter a number or press cancel to stop');
-        if(!isNaN(parseInt(newNumber))) {
+        if(!Number.isNaN(parseInt(newNumber))) {
             numberList.push(parseInt(newNumber))
         } else if(typeof newNumber == 'string') {
             alert('This is not a number');
@@ -30,9 +30,9 @@ function calculatorPro() {
        
     } while (newNumber !== null)
 
-    if(numberList.length == 1) {
+    if(numberList.length === 1) {
         alert('The square root of ' + numberList[0] + ' is ' + squareRoot(numberList[0]))
-    } else if(numberList.length == 0) {
+    } else if(numberList.length === 0) {
         alert('No has introducido ningún número')
     } else {
         let sum = 0;
@@ -41,9 +41,9 @@ function calculatorPro() {
         let divi = 1;
 
         for (let i = 0; i<numberList.length; i++) {
-            sum = sum + numberList[i];
+            sum += numberList[i];
             rest = numberList[i] - rest;
-            multi = multi * numberList[i];
+            multi *= multi * numberList[i];
             divi = division(numberList[i], divi);
         }
         alert('The result of the sum is ' + sum);

@@ -1,5 +1,19 @@
 let cleanScreen = false;
 
+function enterString(string) {
+  if (cleanScreen === true) {
+      document.getElementById('screen').innerHTML = "";
+      document.getElementById('screen').innerHTML += string;
+      cleanScreen = false;
+  } else {
+      document.getElementById('screen').innerHTML += string;
+  }
+}
+
+function result(fn) {
+  return new Function(`return ${fn}`)();
+}
+
 document.getElementById('reset').onclick = () => {
     document.getElementById('screen').innerHTML = "";  
 }
@@ -64,17 +78,6 @@ document.getElementById('equal').onclick = () => {
     enterString(result(document.getElementById('screen').innerHTML));
 }
 
-function enterString(string) {
-        if (cleanScreen === true) {
-            document.getElementById('screen').innerHTML = "";
-            document.getElementById('screen').innerHTML += string;
-            cleanScreen = false;
-        } else {
-            document.getElementById('screen').innerHTML += string;
-        }
-}
 
-function result(fn) {
-    return new Function('return ' + fn)();
-}
+
 
